@@ -1,30 +1,58 @@
-h1{
-	color:white;
-}
+
 body{
-	background-color:white;
+	background-color:black;
+	color:#B0B0B0;
 }
 img{
 	
 }
 #name_first{
-	font-size:60px;
+	font-size:120px;
 }
 #name{
-	padding-top:10px;
-	padding-left:15px;
+	padding-top:100px;
+	padding-left:450px;
 	opacity:0.85;
-	font-size:40px;
+	font-size:70px;
 	font-family:"batang","Trebuchet MS";
 }
-#banner_border{
+/*#banner_border{
 	background-color:#1D7CF2;
 	border-radius:10px;
 	height:90px;
 	width:1900px;
+}*/
+#bottom_banner{
+	height:50px;
+	width:1000px;
 }
 #body{
 
+}
+#fcontact li{
+	text-decoration:none;
+	display: inline;
+	list-style-type: none;
+	padding-left:50px
+	
+}
+#contact{
+	background-color:#B0B0B0;
+	border-radius:10px;
+	height:40px;
+	width:40px;
+	
+}
+#contact a{
+	padding-left:9px;
+	font-family:"Lucida Sans";
+	font-size:30px;
+	color:black;
+	text-decoration:none;
+	
+}
+#menu{
+	padding-left:420px;
 }
 #menu li{
     display: inline;
@@ -32,34 +60,21 @@ img{
     position: static;
 }
 #menu li a{
-	font-size:5px;
-    display: inline-block;
     position: static;
     width: 200px;
     height: 30px;
     line-height: 10px;
-    padding-top: 30px;
-    border-top: 1px solid rgb(153, 153, 153);
+    padding-top: 10px;
     text-align: center;
     color: rgb(205,197,191);
     padding-left: 40px;
     padding-right: 30px;
-    font: normal normal normal 15px arial, helvetica, sans-serif;
+    font: normal normal normal 20px arial, helvetica, sans-serif;
     text-decoration: none;
 }
 #menu li a:hover{
-    color:black;
-    font: normal normal bold 15px arial, helvetica, sans-serif;
+    color:#B0B0B0;
+    font: normal normal bold 20px arial, helvetica, sans-serif;
     text-decoration: none;
-    border-bottom: 3px solid black;
-}
-.center{
-	height:1000px;
-	width:1700px;
-	border-radius:20px;
-	background-color:#1D7CF2;
-	padding-right:20px;
-	opacity:0.35;
-	margin-left:auto;
-	margin-right:auto;
+    border-bottom: 2px solid #B0B0B0;
 }
