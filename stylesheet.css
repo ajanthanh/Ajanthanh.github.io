@@ -1,8 +1,11 @@
 h1{
-	color:#921e28;
+	color:white;
 }
 body{
-	background-color:#f5f5dc;
+	background-color:white;
+}
+img{
+	
 }
 #name_first{
 	font-size:60px;
@@ -15,10 +18,13 @@ body{
 	font-family:"batang","Trebuchet MS";
 }
 #banner_border{
-	background-color:#c0bdb0;
+	background-color:#1D7CF2;
 	border-radius:10px;
 	height:90px;
 	width:1900px;
+}
+#body{
+
 }
 #menu li{
     display: inline;
@@ -26,24 +32,34 @@ body{
     position: static;
 }
 #menu li a{
+	font-size:5px;
     display: inline-block;
     position: static;
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 30px;
     line-height: 10px;
     padding-top: 30px;
-    padding-bottom: 20px;
     border-top: 1px solid rgb(153, 153, 153);
     text-align: center;
     color: rgb(205,197,191);
-    padding-left: 30px;
+    padding-left: 40px;
     padding-right: 30px;
     font: normal normal normal 15px arial, helvetica, sans-serif;
     text-decoration: none;
 }
 #menu li a:hover{
-    color: rgb(255,255,255);
+    color:black;
     font: normal normal bold 15px arial, helvetica, sans-serif;
     text-decoration: none;
-    border-top: 3px solid rgb(255,255,255);
+    border-bottom: 3px solid black;
+}
+.center{
+	height:1000px;
+	width:1700px;
+	border-radius:20px;
+	background-color:#1D7CF2;
+	padding-right:20px;
+	opacity:0.35;
+	margin-left:auto;
+	margin-right:auto;
 }
