@@ -441,6 +441,10 @@ About section
     color:#35bdf6;
     font-size: 44px;
 }
+.about-box-description{
+    font-size: 17px;
+    text-align: center;
+}
 .about-box-text{
     padding-left: 70px;
     padding-top: 0px;
@@ -535,6 +539,21 @@ h3.heading-progress {
     font-weight: 600;
     font-size: 20px;
 }
+.experience-info h3{
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 17px;
+}
+.experience-name h3{
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.services-name h3{
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
 .services-right img{
     margin-bottom: 50px;
 }
@@ -554,6 +573,9 @@ h3.heading-progress {
 }
 .services-section-2 .newsletter-form input:focus{
     border:none;
+}
+.experience-row{
+
 }
 
 
