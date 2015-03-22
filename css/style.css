@@ -67,7 +67,7 @@ a:focus {
     text-decoration: none;	  
 }
 .padding-80{
-    padding: 80px 0;
+    padding: 80px 0 40px 0;
 }
 .padding-50{
     padding: 50px 0;
@@ -78,12 +78,24 @@ a:focus {
 .margin-btm-20{
     margin-bottom: 20px;
 }
+.background-full-grey{
+    background-color: #e7f7f7;
+    height: 100%;
+}
+.background-grey{
+    background-color: #e7f7f7;
+}
+.fix{
+    position:fixed;
+    top:0;
+}
+
 /*****************home ********
 ******************************/
 #home {
     background-color: #444;
     background-position: center 0%;
-    background-size: 200% auto;
+    background-size: 100% auto;
     background-repeat: repeat;
     background-attachment: fixed;
     background-image: url(../background.jpg);
@@ -169,6 +181,7 @@ bootstrap navbar overrides
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
     -moz-box-shadow:0 1px 5px rgba(0, 0, 0, 0.15);
     box-shadow:0 1px 5px rgba(0, 0, 0, 0.15);
+    margin-bottom: 0px;
 }
 .navbar-default .navbar-nav > li > a {
     color: #000;
@@ -192,7 +205,7 @@ bootstrap navbar overrides
     background-color: transparent;
 }
 .navbar-default .navbar-brand{
-    font-weight: 800;
+    font-weight: 500;
     text-transform: uppercase;
     color:#000;
     margin:0px;
@@ -248,6 +261,10 @@ bootstrap navbar overrides
 }
 .section-heading .large{
     opacity: 1;
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid grey;
 }
 .section-heading .section-title{
     color:#000;
@@ -258,10 +275,6 @@ bootstrap navbar overrides
     border-bottom: 1px solid #666;
     font-size: 14px;
     font-weight: 600;
-}
-.section-heading .large{
-    font-weight: 400;
-    font-size: 38px;
 }
 /*******************
 page-head section
@@ -513,7 +526,8 @@ h3.heading-progress {
 ***********************************/
 
 .services-section-1{
-    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 70px;
 }
 .services-icon i{
     color:#333;
@@ -791,7 +805,28 @@ bootstrap overrides badge and pagination
     border-color:#35bdf6;
 }
 
+/*********************************
+          portfolio section
+**********************************/
 
+.portfolio-section{
+    padding: 150px 200px 200px 120px;
+    background-color: #e7f7f7;
+    height: 100%;
+}
+.portfolio-info{
+    font-size: 15px;
+    font-weight: 100;
+}
+.btn-github{
+    background-color: #35BDF6;
+    color: #f7f7f7;
+    padding: 10px 10px 10px 10px;
+    margin: 40px 35% 0 35%;
+    width:30%;
+    min-width: 200px;
+    /*transform: translateY(-50%);*/
+}
 
 /***image hover****/
 
