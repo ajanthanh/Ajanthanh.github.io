@@ -1321,3 +1321,10 @@ label span{
 .dropdown-menu>li>a{
     padding: 8px 20px;
 }
+
+.imgPlaceHolder{
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+}
+
