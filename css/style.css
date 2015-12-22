@@ -935,7 +935,7 @@
 /* Header */
 
 	body.landing #header {
-		background-color: transparent;
+		background-color: rgba(20,20,20,0.9);
 		left: 0;
 		position: absolute;
 		top: 0;
@@ -973,7 +973,6 @@
 		#header nav {
 			height: inherit;
 			line-height: inherit;
-			position: absolute;
 			right: 3em;
 			vertical-align: middle;
 		}
@@ -1044,7 +1043,8 @@
 		padding: 14em 0em 14em;
 		text-align: center;
 		height: 100vh;
-	
+		margin-bottom: -6em;
+
 	}
 
 		#banner :last-child {
@@ -1067,7 +1067,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0em 4em;
+		padding: 8em 0em 7em;
 		/* Style 1 Wrapper */
 		/* Style 2 Wrapper */
 		/* Style 3 Wrapper */
@@ -1229,7 +1229,7 @@
 /*Custom*/
 
 .fix{
-    position:fixed;
+    position:fixed!important;
     top:0;
 }
 
@@ -1469,6 +1469,16 @@ span.blinker:before {
   100% {
     opacity: 1.0;
   }
+}
+
+.page-scroll{
+    padding-top: 0px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #a1a1a1;
+    letter-spacing: 2px;
 }
 
 
