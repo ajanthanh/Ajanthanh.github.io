@@ -1062,7 +1062,6 @@ h5,
 h6,
 .h6 {
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 h4 small,
 .h4 small,
@@ -2798,7 +2797,6 @@ select[multiple].form-group-lg .form-control {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
 }
 .btn:focus,
 .btn:active:focus,
@@ -3869,7 +3867,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   border: 1px solid transparent;
-  text-align: center;
+  text-align: center; 
 }
 @media (min-width: 768px) {
   .navbar {
@@ -5593,6 +5591,10 @@ button.close {
 }
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
+}
+.btn-block:hover{
+  background-color: #55acee;
+  border-color: #55acee;
 }
 .modal-scrollbar-measure {
   position: absolute;
