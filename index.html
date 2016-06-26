@@ -26,7 +26,7 @@
 		</noscript>
 	</head>
 	<link rel="stylesheet" href="css/bootstrap.css" />
-	<body class="landing">
+	<body class="landing" id="loading">
     
 
 		<!-- Banner -->
@@ -107,9 +107,9 @@
 							<div class="isotope-item site-building">
 								<div class="image-box">
 									<section class="box">
-										<img src="images/work-1.jpg">
-										<h3>Digiflare</h3>
-										<h4>Android Developer</h4>
+										<img src="images/work-0.png">
+										<h3>Toast</h3>
+										<h4>Software Developer</h4>
 										<p>September 2015 - December 2015</p>
 									</section>
 									<!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">
@@ -125,7 +125,7 @@
 												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 												<h4 class="modal-title" id="project-4-label">Digiflare</h4>
 											</div>
-											<div class="modal-body">
+											<!-- <div class="modal-body">
 												<h3>Android Developer</h3>
 												<div class="row">
 													<div class="col-md-12 left-align">
@@ -134,11 +134,8 @@
 														<p>Developed android app framework that is used acrossfnumber of Univision projects</p>
 														<p>Conducted meetings with clients to plan and discuss user requirements</p>
 													</div>
-													<!-- <div class="col-md-6">
-														<img src="images/portfolio-4.jpg" style="height:300px!important">
-													</div> -->
 												</div>
-											</div>
+											</div> -->
 											<div class="modal-footer">
 												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
 											</div>
@@ -154,7 +151,7 @@
 								<div class="image-box">
 									<div class="overlay-container">
 										<section class="box">
-										<img src="images/work-2.jpg">
+										<img src="images/work-1.jpg">
 										<h3>Digiflare</h3>
 										<h4>Android Developer</h4>
 										<p>September 2015 - December 2015</p>
@@ -199,9 +196,9 @@
 								<div class="image-box">
 									<div class="overlay-container">
 										<section class="box">
-										<img src="images/work-3.png">
-										<h3>Digiflare</h3>
-										<h4>Android Developer</h4>
+										<img src="images/work-2.jpg">
+										<h3>GroupBy</h3>
+										<h4>Software Developer</h4>
 										<p>September 2015 - December 2015</p>
 									</section>
 									</div>
@@ -566,5 +563,12 @@
 
 			</script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+             <script type="text/javascript">
+    $(function() {
+        $(document).ready(function() {
+            $('#loading').animate({opacity: 2000}, 0);
+        });
+    });
+    </script>
 
 </html>
